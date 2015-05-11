@@ -1,7 +1,7 @@
 # QLSwift
 
-[![Build Status](https://img.shields.io/travis/lexrus/QLSwift/master.svg?style=flat-square)](https://travis-ci.org/lexrus/QLSwift)
-[![GitHub tag](https://img.shields.io/github/tag/lexrus/QLSwift.svg?style=flat-square)](https://github.com/lexrus/QLSwift)
+[![Github Releases](https://img.shields.io/github/downloads/lexrus/QLSwift/latest/total.svg?style=flat-square)](https://github.com/lexrus/QLSwift/releases)
+[![GitHub release](https://img.shields.io/github/release/lexrus/QLSwift.svg?style=flat-square)](https://github.com/lexrus/QLSwift/releases)
 ![License](https://img.shields.io/github/license/lexrus/QLSwift.svg?style=flat-square)
 ![Love](https://img.shields.io/badge/build%20with-%3C3-ff69b4.svg?style=flat-square)
 
