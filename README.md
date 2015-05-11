@@ -12,6 +12,10 @@
 
 A Quick Look plugin for Swift files. Inspired by [QLMarkdown](https://github.com/toland/qlmarkdown).
 
+![qlswiftpreview](https://cloud.githubusercontent.com/assets/219689/7562489/631c18fa-f807-11e4-8a86-32d30b285c5b.jpg)
+
+![qlswiftthumb](https://cloud.githubusercontent.com/assets/219689/7562490/6730637e-f807-11e4-9498-c36437c6e3d9.jpg)
+
 ## Downloads
 
 Source code is available at <http://github.com/lexrus/QLSwift>.
