@@ -44,14 +44,14 @@ NSData *renderSwiftWithHTML(NSURL* url)
     NSString *cssContent = [NSString stringWithContentsOfFile:cssPath
                                                      encoding:NSUTF8StringEncoding
                                                         error:nil];
-    NSString *jsPath = [[NSBundle bundleWithIdentifier:@"com.LexTang.QLSwift"] pathForResource:@"highlight" ofType:@"js"];
+    NSString *jsPath = [[NSBundle bundleWithIdentifier:@"com.LexTang.QLSwift"] pathForResource:@"highlight.pack" ofType:@"js"];
     NSString *jsContent = [NSString stringWithContentsOfFile:jsPath
                                                     encoding:NSUTF8StringEncoding
                                                        error:nil];
     
     NSString *html = [NSString stringWithFormat:@"<!DOCTYPE html>"
                       "<html><meta charset=utf-8>"
-                      "<style>*{margin:0;padding:10pt}body{background:#232323}%@</style>"
+                      "<style>*{margin:0;padding:0}body{background:#232323}%@</style>"
                       "<script>%@</script>"
                       "<script>hljs.initHighlightingOnLoad();</script>"
                       "<body><pre><code class='swift'>%@</code></pre></body></html>",

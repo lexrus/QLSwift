@@ -24,7 +24,7 @@ Download the [latest](https://github.com/lexrus/QLSwift/releases/tag/0.0.1) rele
 
 Simply copy QLSwift.qlgenerator to `~/Library/QuickLook` or `/Library/QuickLook`.
 
-You should run `qlmanager -r` in terminal in case the Quick Lock cache was not flushed.
+You should run `qlmanage -r` in terminal in case the Quick Lock cache was not flushed.
 
 To uninstall, drag QLSwift into the trash.
 
