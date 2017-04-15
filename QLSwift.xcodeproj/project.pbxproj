@@ -12,11 +12,11 @@
 		D71CE7AC1B008D4C00D8A35F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D71CE7AB1B008D4C00D8A35F /* main.c */; };
 		D71CE7B41B008D7600D8A35F /* SwiftRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D71CE7B21B008D7600D8A35F /* SwiftRenderer.h */; };
 		D71CE7B51B008D7600D8A35F /* SwiftRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D71CE7B31B008D7600D8A35F /* SwiftRenderer.m */; };
-		D71CE7F61B00939F00D8A35F /* highlight.pack.js in Resources */ = {isa = PBXBuildFile; fileRef = D71CE7B91B00939F00D8A35F /* highlight.pack.js */; };
 		D71CE7F71B00939F00D8A35F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D71CE7BA1B00939F00D8A35F /* LICENSE */; };
 		D71CE7F81B00939F00D8A35F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D71CE7BB1B00939F00D8A35F /* README.md */; };
 		D71CE8331B009CEB00D8A35F /* monokai_sublime.css in Resources */ = {isa = PBXBuildFile; fileRef = D71CE8321B009CEB00D8A35F /* monokai_sublime.css */; };
 		D71CE83A1B00A8AC00D8A35F /* SwiftWaterMark.png in Resources */ = {isa = PBXBuildFile; fileRef = D71CE8391B00A8AC00D8A35F /* SwiftWaterMark.png */; };
+		D77D05A51EA2699D00BCF51B /* highlight.js in Resources */ = {isa = PBXBuildFile; fileRef = D77D05A41EA2699D00BCF51B /* highlight.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		D71CE7AB1B008D4C00D8A35F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D71CE7B21B008D7600D8A35F /* SwiftRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftRenderer.h; sourceTree = "<group>"; };
 		D71CE7B31B008D7600D8A35F /* SwiftRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftRenderer.m; sourceTree = "<group>"; };
-		D71CE7B91B00939F00D8A35F /* highlight.pack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
 		D71CE7BA1B00939F00D8A35F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D71CE7BB1B00939F00D8A35F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D71CE8321B009CEB00D8A35F /* monokai_sublime.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = monokai_sublime.css; sourceTree = "<group>"; };
 		D71CE8391B00A8AC00D8A35F /* SwiftWaterMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftWaterMark.png; sourceTree = "<group>"; };
+		D77D05A41EA2699D00BCF51B /* highlight.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		D71CE7B81B00939F00D8A35F /* highlight */ = {
 			isa = PBXGroup;
 			children = (
-				D71CE7B91B00939F00D8A35F /* highlight.pack.js */,
+				D77D05A41EA2699D00BCF51B /* highlight.js */,
 				D71CE7BA1B00939F00D8A35F /* LICENSE */,
 				D71CE7BB1B00939F00D8A35F /* README.md */,
 				D71CE7BC1B00939F00D8A35F /* styles */,
@@ -182,7 +182,7 @@
 				D71CE83A1B00A8AC00D8A35F /* SwiftWaterMark.png in Resources */,
 				D71CE8331B009CEB00D8A35F /* monokai_sublime.css in Resources */,
 				D71CE7F71B00939F00D8A35F /* LICENSE in Resources */,
-				D71CE7F61B00939F00D8A35F /* highlight.pack.js in Resources */,
+				D77D05A51EA2699D00BCF51B /* highlight.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +322,7 @@
 				D71CE7B11B008D4C00D8A35F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

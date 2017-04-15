@@ -5,29 +5,26 @@
 ![License](https://img.shields.io/github/license/lexrus/QLSwift.svg?style=flat-square)
 ![Love](https://img.shields.io/badge/build%20with-%3C3-ff69b4.svg?style=flat-square)
 
-[![Git](https://img.shields.io/badge/GitHub-lexrus-blue.svg?style=flat-square)](https://github.com/lexrus)
-[![Twitter](https://img.shields.io/badge/twitter-@lexrus-blue.svg?style=flat-square)](http://twitter.com/lexrus)
-[![LinkedIn](https://img.shields.io/badge/linkedin-Lex Tang-blue.svg?style=flat-square)](https://cn.linkedin.com/in/lexrus/en)
-[![eMail](https://img.shields.io/badge/email-lexrus@gmail.com-blue.svg?style=flat-square)](mailto:lexrus@gmail.com?SUBJECT=About QLSwift)
-
 A Quick Look plugin for Swift files. Inspired by [QLMarkdown](https://github.com/toland/qlmarkdown).
 
 ![qlswiftpreview](https://cloud.githubusercontent.com/assets/219689/7562489/631c18fa-f807-11e4-8a86-32d30b285c5b.jpg)
 
 ![qlswiftthumb](https://cloud.githubusercontent.com/assets/219689/7562490/6730637e-f807-11e4-9498-c36437c6e3d9.jpg)
 
-## Downloads
-
-Source code is available at <http://github.com/lexrus/QLSwift>.
-
-You can download the [latest](https://github.com/lexrus/QLSwift/releases/tag/0.0.1) release from 
-<https://github.com/lexrus/QLSwift/releases>
-
 ## Installation
+
+### Homebrew
+
+`brew install Caskroom/cask/qlswift`
+
+### Manually
+
+Download the [latest](https://github.com/lexrus/QLSwift/releases/tag/0.0.1) release from 
+<https://github.com/lexrus/QLSwift/releases>
 
 Simply copy QLSwift.qlgenerator to `~/Library/QuickLook` or `/Library/QuickLook`.
 
-If the newly installed plugin is not picked up instantly, you run `qlmanage -r` in a terminal to refresh.
+You should run `qlmanager -r` in terminal in case the Quick Lock cache was not flushed.
 
 To uninstall, drag QLSwift into the trash.
 
@@ -44,7 +41,7 @@ This code is distributed under the terms and conditions of the MIT license.
 
 ```
 The MIT License (MIT)
-Copyright © 2015 Lex Tang, http://LexTang.com
+Copyright © 2017 Lex Tang, http://lexrus.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
